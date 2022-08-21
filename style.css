@@ -82,3 +82,23 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+@media (max-width: 576px) {
+  h4 {
+    font-size: 24px;
+    opacity: 0.7;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  .photo {
+    display: none;
+  }
+  .contact-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
